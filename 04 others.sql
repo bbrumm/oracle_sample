@@ -1,7 +1,6 @@
 /*
 04 Others
-Perform other steps after populating data.
-This includes indexes and procedures
+Perform other steps after populating data, such as indexes and comments
 */
 
 

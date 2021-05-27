@@ -150,7 +150,7 @@ ADD (
   CONSTRAINT emp_job_fk
     FOREIGN KEY (job_id) REFERENCES jobs (job_id),
   CONSTRAINT emp_manager_fk
-    FOREIGN KEY (manager_id) REFERENCES employees
+    FOREIGN KEY (manager_id) REFERENCES employees (employee_id)
 );
 
 /* Alter Tables */
