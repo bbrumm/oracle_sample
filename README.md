@@ -15,7 +15,7 @@ To create this schema on your database:
 
 The schema is now set up!
 
-##ERD
+## ERD
 
 Here's the ERD of the HR schema
 ![ERD - Oracle HR Schema](https://user-images.githubusercontent.com/9577031/120085247-c9dd5180-c119-11eb-8d06-d8cfd5a1a60f.png)
