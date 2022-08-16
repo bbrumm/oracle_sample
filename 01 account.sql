@@ -8,7 +8,7 @@ Run this as either SYS or SYSTEM.
 /*
 Set the pluggable database if you're running this on Oracle v12 or later.
 */
-ALTER SESSION SET CONTAINER = ORCLPDB1;
+ALTER SESSION SET CONTAINER = ORCLPDB;
 
 /*
 Drop the HR account and all objects to reset.
@@ -16,7 +16,7 @@ Then, create the user and give it the permissions.
 */
 DROP USER HR CASCADE;
 
-CREATE USER HR IDENTIFIED BY hrpass;
+CREATE USER HR IDENTIFIED BY hr;
 
 ALTER USER HR DEFAULT TABLESPACE users QUOTA UNLIMITED ON users;
 
